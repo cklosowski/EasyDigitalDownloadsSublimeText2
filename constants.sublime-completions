@@ -1,0 +1,14 @@
+{
+  "scope": "source.php - variable.other.php",
+
+  "completions":
+  [
+    "php",
+
+    { "trigger": "EDD_VERSION", "contents": "EDD_VERSION" },
+    { "trigger": "EDD_PLUGIN_URL", "contents": "EDD_PLUGIN_URL" },
+    { "trigger": "EDD_PLUGIN_DIR", "contents": "EDD_PLUGIN_DIR" },
+    { "trigger": "EDD_PLUGIN_FILE", "contents": "EDD_PLUGIN_FILE" },
+    { "trigger": "FPDF_VERSION", "contents": "FPDF_VERSION" }
+  ]
+}
