@@ -1,4 +1,3 @@
-
 {
   "scope": "source.php - variable.other.php",
 
@@ -296,7 +295,7 @@
     { "trigger": "edd_set_file_download_limit_override", "contents": "edd_set_file_download_limit_override(${1:download_id = 0}, ${2:payment_id = 0})" },
     { "trigger": "edd_is_file_at_download_limit", "contents": "edd_is_file_at_download_limit(${1:download_id = 0}, ${2:payment_id = 0}, ${3:file_id = 0})" },
     { "trigger": "edd_get_file_price_condition", "contents": "edd_get_file_price_condition(${1:download_id}, ${2:file_key})" },
-    { "trigger": "edd_get_download_file_url", "contents": "edd_get_download_file_url(${1:key}, ${2:email}, ${3:filekey}, ${4:download_id})" },
+    { "trigger": "edd_get_download_file_url", "contents": "edd_get_download_file_url(${1:key}, ${2:email}, ${3:filekey}, ${4:download_id}, ${5:price_id = false})" },
     { "trigger": "edd_verify_download_link", "contents": "edd_verify_download_link(${1:download_id}, ${2:key}, ${3:email}, ${4:expire}, ${5:file_key})" },
     { "trigger": "edd_get_product_notes", "contents": "edd_get_product_notes(${1:download_id})" },
     { "trigger": "edd_resend_purchase_receipt", "contents": "edd_resend_purchase_receipt(${1:data})" },
@@ -352,6 +351,7 @@
     { "trigger": "edd_listen_for_paypal_ipn", "contents": "edd_listen_for_paypal_ipn()" },
     { "trigger": "edd_process_paypal_ipn", "contents": "edd_process_paypal_ipn()" },
     { "trigger": "edd_process_paypal_web_accept", "contents": "edd_process_paypal_web_accept(${1:data})" },
+    { "trigger": "edd_process_paypal_refund", "contents": "edd_process_paypal_refund(${1:data})" },
     { "trigger": "edd_get_paypal_redirect", "contents": "edd_get_paypal_redirect(${1:ssl_check = false})" },
     { "trigger": "edd_get_paypal_page_style", "contents": "edd_get_paypal_page_style()" },
     { "trigger": "edd_show_download_sales_graph", "contents": "edd_show_download_sales_graph(${1:bgcolor = 'white'})" },
@@ -572,6 +572,7 @@
     { "trigger": "edd_payment_tax", "contents": "edd_payment_tax(${1:payment_id = 0}, ${2:payment_meta = false})" },
     { "trigger": "edd_get_payment_tax", "contents": "edd_get_payment_tax(${1:payment_id = 0}, ${2:payment_meta = false})" },
     { "trigger": "edd_get_purchase_id_by_key", "contents": "edd_get_purchase_id_by_key(${1:key})" },
+    { "trigger": "edd_record_status_change", "contents": "edd_record_status_change(${1:payment_id}, ${2:new_status}, ${3:old_status})" },
     { "trigger": "edd_payment_amount", "contents": "edd_payment_amount(${1:payment_id = 0})" },
     { "trigger": "edd_get_payment_notes", "contents": "edd_get_payment_notes(${1:payment_id = 0})" },
     { "trigger": "edd_insert_payment_note", "contents": "edd_insert_payment_note(${1:payment_id = 0}, ${2:note = ''})" },
@@ -653,6 +654,7 @@
     { "trigger": "edd_get_templates_url", "contents": "edd_get_templates_url()" },
     { "trigger": "edd_get_template_part", "contents": "edd_get_template_part(${1:slug}, ${2:name = null}, ${3:load = true})" },
     { "trigger": "edd_locate_template", "contents": "edd_locate_template(${1:template_names}, ${2:load = false}, ${3:require_once = true})" },
+    { "trigger": "edd_responsive_download_post_class", "contents": "edd_responsive_download_post_class(${1:classes}, ${2:class}, ${3:post_id})" },
     { "trigger": "edd_get_users_purchases", "contents": "edd_get_users_purchases(${1:user = 0}, ${2:number = 20}, ${3:pagination = false})" },
     { "trigger": "edd_has_user_purchased", "contents": "edd_has_user_purchased(${1:user_id}, ${2:downloads}, ${3:variable_price_id = null})" },
     { "trigger": "edd_has_purchases", "contents": "edd_has_purchases(${1:user_id = null})" },
