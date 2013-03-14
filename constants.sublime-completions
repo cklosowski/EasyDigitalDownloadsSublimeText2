@@ -5,6 +5,7 @@
   [
     "php",
 
+    { "trigger": "WP_SESSION_COOKIE", "contents": "WP_SESSION_COOKIE" },
     { "trigger": "FPDF_VERSION", "contents": "FPDF_VERSION" },
     { "trigger": "EDD_VERSION", "contents": "EDD_VERSION" },
     { "trigger": "EDD_PLUGIN_URL", "contents": "EDD_PLUGIN_URL" },
