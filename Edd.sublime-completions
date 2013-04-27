@@ -220,7 +220,6 @@
     { "trigger": "edd_get_php_arg_separator_output", "contents": "edd_get_php_arg_separator_output()" },
     { "trigger": "edd_get_current_page_url", "contents": "edd_get_current_page_url()" },
     { "trigger": "_edd_deprecated_function", "contents": "_edd_deprecated_function(${1:function}, ${2:version}, ${3:replacement = null}, ${4:backtrace = null})" },
-    { "trigger": "edd_presstrends", "contents": "edd_presstrends()" },
     { "trigger": "edd_is_func_disabled", "contents": "edd_is_func_disabled(${1:function})" },
     { "trigger": "edd_let_to_num", "contents": "edd_let_to_num(${1:v})" },
     { "trigger": "edd_get_symlink_url", "contents": "edd_get_symlink_url()" },
