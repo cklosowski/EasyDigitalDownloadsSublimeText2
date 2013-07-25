@@ -4,6 +4,8 @@
 http://tanc.me/blog/2011/drupal-autocomplete-file-sublime-text-2
 
 ## Changelog ##
+## 7/25/2013 ##
+* Updated for EDD Version 1.7.1 (sorry for not updaing this readme more often)
 
 ### 2/2/2013 ###
 * Updated for EDD Version 1.4.3

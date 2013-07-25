@@ -6,6 +6,7 @@
     "php",
 
     { "trigger": "WP_SESSION_COOKIE", "contents": "WP_SESSION_COOKIE" },
+    { "trigger": "DONOTCACHEPAGE", "contents": "DONOTCACHEPAGE" },
     { "trigger": "FPDF_VERSION", "contents": "FPDF_VERSION" },
     { "trigger": "EDD_VERSION", "contents": "EDD_VERSION" },
     { "trigger": "EDD_PLUGIN_DIR", "contents": "EDD_PLUGIN_DIR" },
