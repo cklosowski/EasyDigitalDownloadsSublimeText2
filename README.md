@@ -3,6 +3,9 @@
 ** Adapted method of generation from tanc.me:
 http://tanc.me/blog/2011/drupal-autocomplete-file-sublime-text-2
 
+## Install ##
+* Using Package Manager search for "EasyDigitalDownloads" *
+
 ## Changelog ##
 ## 1/17/2014 ##
 * Updated for EDD 1.9.4
