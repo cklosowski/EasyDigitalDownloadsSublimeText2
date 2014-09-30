@@ -9,8 +9,13 @@
     { "trigger": "EDD_PLUGIN_DIR", "contents": "EDD_PLUGIN_DIR" },
     { "trigger": "EDD_PLUGIN_URL", "contents": "EDD_PLUGIN_URL" },
     { "trigger": "EDD_PLUGIN_FILE", "contents": "EDD_PLUGIN_FILE" },
+    { "trigger": "CAL_GREGORIAN", "contents": "CAL_GREGORIAN" },
+    { "trigger": "EDD_DOING_API", "contents": "EDD_DOING_API" },
     { "trigger": "DONOTCACHEPAGE", "contents": "DONOTCACHEPAGE" },
     { "trigger": "WP_SESSION_COOKIE", "contents": "WP_SESSION_COOKIE" },
-    { "trigger": "FPDF_VERSION", "contents": "FPDF_VERSION" }
+    { "trigger": "FPDF_VERSION", "contents": "FPDF_VERSION" },
+    { "trigger": "DOING_AJAX", "contents": "DOING_AJAX" },
+    { "trigger": "EDD_USE_PHP_SESSIONS", "contents": "EDD_USE_PHP_SESSIONS" },
+    { "trigger": "WPE_APIKEY", "contents": "WPE_APIKEY" }
   ]
 }
